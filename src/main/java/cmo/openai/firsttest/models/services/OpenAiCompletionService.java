@@ -17,7 +17,7 @@ import cmo.openai.firsttest.models.openaiapi.HttpRequestOpenAIAPI;
 public class OpenAiCompletionService {
 
     private static final String URL = "https://api.openai.com/v1/completions";
-    private static final String TOKEN = "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";
+    private static final String TOKEN = "";
 
     public String requestOpenAiApi(RequestCompletionOpenAi completionOpenAi, String method) {
         HttpRequestOpenAIAPI openAiApi = new HttpRequestOpenAIAPI(URL, TOKEN);
